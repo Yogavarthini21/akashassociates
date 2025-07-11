@@ -1,0 +1,99 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<!-- Page Header Start -->
+<div class="page-header parallaxie">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Page Header Box Start -->
+        <div class="page-header-box">
+          <h1 class="text-anime-style-3">About Us</h1>
+          <nav class="wow fadeInUp">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="{% url 'index' %}">home</a>
+              </li>
+              
+              <li class="breadcrumb-item active" aria-current="page">
+                / about us
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Page Header Box End -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Page About Us Start -->
+<div class="page-about-us">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <!-- About Us Image Start -->
+        <div class="about-us-image">
+          <div class="about-us-img">
+            <figure class="reveal">
+              <img src="{% static 'images/about-us-img.png' %}" alt="" />
+            </figure>
+          </div>
+        </div>
+        <!-- About Us Image End -->
+      </div>
+
+      <div class="col-lg-7">
+        <!-- About Content Start -->
+        <div class="about-us-content">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">about us</h3>
+            <h2 class="text-anime-style-3" data-cursor="-opaque">
+              Crafting structures that last a lifetime
+            </h2>
+            <p class="wow fadeInUp" data-wow-delay="0.25s">
+              Crafting structures that last a lifetime requires a holistic
+              approach that integrates advanced materials, resilient design,
+              regular maintenance, and sustainability practices. By learning
+              from historical examples and leveraging modern technology.
+            </p>
+          </div>
+          <!-- Section Title End -->
+
+          <!-- About Content Body Start -->
+          <div class="about-us-content-body wow fadeInUp" data-wow-delay="0.5s">
+            <ul>
+              <li>Comprehensive Services</li>
+              <li>Advanced Technology</li>
+              <li>Transparent Communication</li>
+            </ul>
+          </div>
+          <!-- About Content Body End -->
+
+          <!-- About Content Footer Start -->
+          <div
+            class="about-us-content-footer wow fadeInUp"
+            data-wow-delay="0.75s"
+          >
+            <div class="about-us-footer-btn">
+              <a href="#" class="btn-default">get free quote</a>
+            </div>
+            <div class="about-us-contact-support">
+              <div class="icon-box">
+                <img src="{% static 'images/icon-phone.svg' %}" alt="" />
+              </div>
+              <div class="about-us-support-content">
+                <p>call support center 24X7</p>
+                <h3>+1 809 120 6705</h3>
+              </div>
+            </div>
+          </div>
+          <!-- About Content Footer End -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page About Us End -->
+
+{% endblock content %}
