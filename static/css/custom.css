@@ -2495,7 +2495,8 @@ header.main-header .header-sticky.active{
 
 .service-sustainable .service-sustainable-img-1 img,
 .service-sustainable .service-sustainable-img-2 img{
-	border-radius: 40px;
+	/* border-radius: 40px; */
+
 }
 
 .service-sustainable-content{
